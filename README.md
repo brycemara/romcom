@@ -7,7 +7,7 @@
   This application allows you to generate randomized RomCom covers, as well as create some of your own. You can save random covers you like, as well as save covers you create.
 
 ### Usage:
-  - Open [this link](file:///Users/brycemarajarrett/romcom/index.html) to be directed to the website.
+  - Open [this link](https://brycemara.github.io/romcom/) to be directed to the website.
   - Generate random covers by clicking the "Show New Random Cover" button.
   - Save covers you like use the "Save Cover" button.
   - Create your own cover by clicking the "Make Your Own Cover" button and enter an image address, title, and tagline's. You can also save your created cover.
