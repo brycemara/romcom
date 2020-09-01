@@ -35,4 +35,4 @@ Lastly, you can save covers (including your own creations) and view them on thei
 
 ## Credits:
 Bryce Jarrett
-![alt text](https://scontent.faus1-1.fna.fbcdn.net/v/t1.0-9/72959034_2734593453324885_776414720000262144_n.jpg?_nc_cat=111&_nc_sid=0be424&_nc_ohc=8Q4ETQjEhRkAX-BRc4f&_nc_ht=scontent.faus1-1.fna&oh=a8d9cd14c499204db2f4cd0d261f46c6&oe=5F72BA73)
+<img src="https://scontent.faus1-1.fna.fbcdn.net/v/t1.0-9/72959034_2734593453324885_776414720000262144_n.jpg?_nc_cat=111&_nc_sid=0be424&_nc_ohc=8Q4ETQjEhRkAX-BRc4f&_nc_ht=scontent.faus1-1.fna&oh=a8d9cd14c499204db2f4cd0d261f46c6&oe=5F72BA73" width=300 height=300>
