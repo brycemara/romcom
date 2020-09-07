@@ -55,8 +55,8 @@ function useRandomIndexToGenerateCover() {
     titles[getRandomIndex(titles)],
     descriptors[getRandomIndex(descriptors)],
     descriptors[getRandomIndex(descriptors)],
-)
-return newRandomCover;
+    )
+  return newRandomCover;
 };
 
 function displayNewRandomCover(bookObject) {
@@ -64,7 +64,7 @@ function displayNewRandomCover(bookObject) {
   coverTitle.innerHTML = bookObject.title;
   tagline1.innerHTML = bookObject.tagline1;
   tagline2.innerHTML = bookObject.tagline2;
-}
+};
 
 function displayNewRandomCoverButton() {
   var bookCover = useRandomIndexToGenerateCover();
@@ -106,14 +106,14 @@ function viewHomeScreen() {
 }
 
 function saveCoverMadeByUser() {
-event.preventDefault()
-viewHomeScreen();
-coverImage.src = coverInput.value;
-coverTitle.innerHTML = titleInput.value;
-tagline1.innerHTML = tagline1Input.value;
-tagline2.innerHTML = tagline2Input.value;
+  event.preventDefault()
+  viewHomeScreen();
+  coverImage.src = coverInput.value;
+  coverTitle.innerHTML = titleInput.value;
+  tagline1.innerHTML = tagline1Input.value;
+  tagline2.innerHTML = tagline2Input.value;
 
-addUserCovers()
+  addUserCovers()
 };
 
 function addInputToArray() {
@@ -124,14 +124,14 @@ function addInputToArray() {
 };
 
 function addUserCovers() {
-var coverByUser = new Cover(coverInput.value, titleInput.value, tagline1Input.value, tagline2Input.value);
-savedCovers.push(coverByUser);
+  var coverByUser = new Cover(coverInput.value, titleInput.value, tagline1Input.value, tagline2Input.value);
+  savedCovers.push(coverByUser);
 };
 
 function saveCovers() {
-if (!savedCovers.includes(currentCover)) {
-  savedCovers.push(currentCover);
-}
+  if (!savedCovers.includes(currentCover)) {
+    savedCovers.push(currentCover);
+  }
 };
 
 function displaySavedCoversSection() {
